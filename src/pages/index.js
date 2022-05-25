@@ -1,9 +1,14 @@
-import * as React from 'react'
+import * as React from 'react';
+import { Link, useStaticQuery, graphql } from 'gatsby';
+import Layout from '../components/layout';
 
-export default function IndexPage(){
-    return(
-        <main>
-            <h1>Hello frontend Masters!</h1>
-        </main>
+  export default function IndexPage() {
+    return (
+      <>
+        <Layout>
+        <h1>Hello Frontend Masters!</h1>
+          <Link to="/about">About this site</Link>
+        </Layout>
+      </>
     );
-}
+  }
