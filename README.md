@@ -29,3 +29,6 @@ npm install gatsby-remark-images
 
 # Sanity source plugin
 npm install gatsby-source-sanity
+
+# netlify 
+npm i -g netlify-cli@latest
