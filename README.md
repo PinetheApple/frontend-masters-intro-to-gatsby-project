@@ -23,3 +23,6 @@ npm i gatsby-source-filesystem gatsby-plugin-page-creator gatsby-plugin-mdx @mdx
 
 # Gatsby image plugin and support for Sharp
 npm install gatsby-plugin-image gatsby-plugin-sharp gatsby-transformer-sharp
+
+# Optimize Static Images in MDX
+npm install gatsby-remark-images
