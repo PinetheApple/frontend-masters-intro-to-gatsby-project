@@ -26,3 +26,6 @@ npm install gatsby-plugin-image gatsby-plugin-sharp gatsby-transformer-sharp
 
 # Optimize Static Images in MDX
 npm install gatsby-remark-images
+
+# Sanity source plugin
+npm install gatsby-source-sanity
